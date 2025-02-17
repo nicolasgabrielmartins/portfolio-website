@@ -4,17 +4,27 @@ body {
     margin: 30px;
 }
 
-.header {
-    background-color: rgb(255, 255, 255);
-    padding: 10px;
-    display: block;
-    font-family: Arial, Helvetica, sans-serif;
+.navbar.navbar-expand-lg.navbar-light.bg-light,
+.navbar.navbar-light.bg-light {
+    background-color: #ebebeb !important;
+    padding: 0.5%;
+}
+
+.navbar.navbar-light.bg-light,
+a.nav-link{
+    padding: 0;
+    padding-left: 1%;
+}
+
+.navbar-brand-img {
+    display: flex;
+    border-radius: 50%;
 }
 
 h1,
-p {
+a.footer {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0.5%;
+    margin: 50%;
 }
 
 footer {
